@@ -74,10 +74,10 @@ async def _(e):
     await e.edit("💞💕💗💘")
     await e.edit("💘💞💗💕")
     await e.edit("💘💞💕💗")
-    await e.edit("SAYANG KAMU 💝💖💘")
+    await e.edit("SINNER SAYANG KAMU 💝💖💘")
     await e.edit("💝💘💓💗")
     await e.edit("💞💕💗💘")
-    await e.edit("💘💞💕💗")
+    await e.edit("SINNER")
     await e.edit("SAYANG")
     await e.edit("KAMU")
     await e.edit("SELAMANYA 💕")
@@ -90,7 +90,7 @@ async def _(e):
     await e.edit("MY BABY")
     await e.edit("💕💞💘💝")
     await e.edit("💘💕💞💝")
-    await e.edit("SAYANG KAMU💞")
+    await e.edit("PRIVATE KUY💞")
 
 
 @bot.on(man_cmd(outgoing=True, pattern=r"dino(?: |$)(.*)"))
@@ -438,22 +438,22 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "cinta":
+    if input_str == "memeq":
 
         await event.edit(input_str)
 
         animation_chars = [
-            "`Connecting Ke Server Cinta`",
-            "`Mencari Target Cinta`",
-            "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
-            "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            "`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞`",
+            "`Connecting Ke Server Memeq`",
+            "`Mencari Target Memeq`",
+            "`Mengirim Kontolku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kontolku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kontolku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kontolku.. 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kontolku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kontolku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kontolku.. 84%\n█████████████████████▒▒▒▒ `",
+            "`Mengirim Kontolku.. 100%\n█████████MEMEQMU███████████ `",
+            "`Memeqmu Sekarang Sepenuhnya Menjadi Milikku, Dan Sekarang Aku Ingin Melihat Memeqmu, I Love You 💞`",
         ]
 
         animation_interval = 2
@@ -1213,7 +1213,7 @@ CMD_HELP.update(
     \nUsage: ntahlah gabut doang.\
     \n\n`{cmd}gombal`\
     \nUsage: buat bercanda\
-    \n\n`{cmd}cinta`\
+    \n\n`{cmd}memeq`\
     \nUsage: mengirim cintamu ke seseorang.\
     \n\n`{cmd}sayang`\
     \nUsage: untuk jadi buaya.\
