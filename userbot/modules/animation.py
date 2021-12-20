@@ -467,28 +467,28 @@ async def _(event):
             await event.edit(animation_chars[i % 11])
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"gombal(?: |$)(.*)"))
+@bot.on(man_cmd(outgoing=True, pattern=r"sinner(?: |$)(.*)"))
 async def _(typew):
     sleep(1)
-    await typew.edit("`Hai, I LOVE YOU 💞`")
+    await typew.edit("`HAI, GUA SINNER`")
     sleep(1)
-    await typew.edit("`I LOVE YOU SO MUCH!`")
+    await typew.edit("`OWNER TERKEREN!`")
     sleep(1)
-    await typew.edit("`I NEED YOU!`")
+    await typew.edit("`TERCABUL!`")
     sleep(1)
-    await typew.edit("`I WANT TO BE YOUR BOYFRIEND!`")
+    await typew.edit("`DAN PALING SAGAPUNG DI XXX!`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💕💗`")
+    await typew.edit("`TAPI GUA BAIK KOK`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💗💞`")
+    await typew.edit("`SAMA CEWE YG NGASI PAP`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💝💗`")
+    await typew.edit("`APALAGIIII`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💟💖`")
+    await typew.edit("`KLO DIAJAK PRIVATE`")
     sleep(1)
     await typew.edit("`I LOVEE YOUUUU💘💓`")
     sleep(1)
-    await typew.edit("`Tapi Bo'ong`")
+    await typew.edit("`PRIVATE KUY`")
 
 
 # Create by myself @localheart
@@ -1161,7 +1161,7 @@ async def _(typew):
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     sleep(1)
-    await typew.edit("`Target Berhasil Tersantet Online 🥴`")
+    await typew.edit("`Target Berhasil Tersantet Online 🥴`" "`\nKIRIM PAP KALO MAU SELAMAT`")
 
 
 @bot.on(man_cmd(outgoing=True, pattern=".nah(?: |$)(.*)"))
@@ -1211,7 +1211,7 @@ CMD_HELP.update(
     {
         "animasi": f"`{cmd}gabut` ; `{cmd}dino`\
     \nUsage: ntahlah gabut doang.\
-    \n\n`{cmd}gombal`\
+    \n\n`{cmd}sinner`\
     \nUsage: buat bercanda\
     \n\n`{cmd}memeq`\
     \nUsage: mengirim cintamu ke seseorang.\
